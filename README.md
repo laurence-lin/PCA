@@ -1,6 +1,9 @@
 # PCA
 Apply PCA on wine dataset, to show that by the dimension reduction principal component, the extracted feature is available to perform classification task.
 
+Set k = 2, use SVD to perform PCA, reduce the original 13 features dataset into 2 features.
+After PCA, the dataset is clear to show on plot and still able to perform classification.
+
 Use 80% for train set, 20% for test set
 
 Testing accuracy: 0.805
