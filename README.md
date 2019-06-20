@@ -18,3 +18,13 @@ Discussion:
 PCA could help dimension reduction, extract features, and help visualization
 
 Visualization: By projecting the multi-features into 2 feature, we could show the data on a 2D plot, and plot the data with different class colors.
+
+108.06.20
+
+By the testing, I found that the effect of doing PCA from best to worst:
+
+First: compute covariance matrix and use SVD
+
+Second: compute SVD on the matrix directly
+
+Last: compute covariance matrix, and do eigenvalue decomposition
