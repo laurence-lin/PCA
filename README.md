@@ -11,3 +11,10 @@ The test accuracy could reach 1.0 by random, but sometimes get bad performance l
 Use the LogisticRegression package in sklearn is not stable.
 
 ![img](https://github.com/laurence-lin/PCA/blob/master/wine_class.png)
+
+
+Discussion:
+
+PCA could help dimension reduction, extract features, and help visualization
+
+Visualization: By projecting the multi-features into 2 feature, we could show the data on a 2D plot, and plot the data with different class colors.
